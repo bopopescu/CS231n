@@ -65,7 +65,7 @@ class SetManagedCluster(base.UpdateCommand):
         "2017-08-29T18:52:51.142Z"
         """)
 
-    for instance_type in ('master', 'worker'):
+    for instance_type in ('main', 'worker'):
       help_msg = """\
       Attaches accelerators (e.g. GPUs) to the {instance_type}
       instance(s).
